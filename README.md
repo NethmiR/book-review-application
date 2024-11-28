@@ -4,15 +4,15 @@ This repository contains a full-stack application developed as part of a coding 
 
 ## Features
 
-- **User Management**: Users can log into the system using Firebase Authentication.
-- **Review Viewing**: Anyone, including users who have not created an account, can view book reviews.
-- **Review Posting**: Authenticated users with an account can post reviews for books.
-- **Backend Management**: Backend functionality for handling books and authors (not integrated into the front end due to time constraints).
-- **Technologies Used**:
-  - **Frontend**: Next.js
-  - **Backend**: Express.js
-  - **Authentication**: Firebase Authentication
-  - **Database**: PostgreSQL
+- User Management: Users can log into the system using Firebase Authentication.
+- Review Viewing: Anyone, including users who have not created an account, can view the reviews for books.
+- Review Posting: Authenticated users with an account can post reviews for books.
+- Backend Management: Backend functionality for handling books and authors (not integrated into the frontend due to time constraints).
+- Technologies Used:
+  - Frontend: Next.js
+  - Backend: Express.js
+  - Authentication: Firebase Authentication
+  - Database: PostgreSQL
 
 ## Prerequisites
 
@@ -23,4 +23,11 @@ To run this application, ensure you have the following:
 
 ## Environment Setup
 
-The application requires `.env` files for both the front end and the back end. Ensure you create these files with the necessary configurations.
+The application requires .env files for both the frontend and backend. Ensure you create these files with the necessary configurations.
+
+## Run Application
+
+Both front-end and back-end can be executed using following commands
+1. npm install
+2. configure environments
+3. npm run dev
